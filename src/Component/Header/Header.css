@@ -1,0 +1,38 @@
+.header{
+    border-bottom: 2px solid red;
+}
+.logo{
+    height: 80px;
+}
+
+nav .button{
+    padding: 5px 20px;
+    border: 2px solid #17a2b8;
+    margin: 10px;
+    border-radius: 100px;
+    color: #17a2b8;
+    margin-top:15px;
+
+}
+nav .button:hover{
+    color: white;
+    background-color: #17a2b8;
+    text-decoration: none;
+}
+nav button:focus{
+    outline:none;
+}
+button.cart {
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    color: #17a2b8;
+}
+.cartTag {
+    color: white;
+    background-color: black;
+    height: 25px;
+    padding: 0 8px;
+    border-radius: 50px;
+    margin: 3px 0px 0px -11px;
+}
